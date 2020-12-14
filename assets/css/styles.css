@@ -120,7 +120,7 @@ h2 {
   background-size: cover;
 }
 
-/* div {
-  min-height: 40px;
-  box-sizing: border-box;
-} */
+.footer1 li {
+  display: inline;
+  justify-content: space-between;
+}
