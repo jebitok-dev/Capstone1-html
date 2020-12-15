@@ -147,6 +147,11 @@ active {
   margin-bottom: 30px;
 }
 
+header,
+.space {
+  padding: 1.5rem 0;
+}
+
 h4 {
   text-transform: uppercase;
   color: #ffffff;
@@ -157,8 +162,7 @@ img {
   display: block;
 }
 
-.form1 input,
-input {
+.form1 input {
   width: 100%;
 }
 
@@ -207,8 +211,22 @@ input {
   bottom: 0 auto;
 }
 
-.main-body {
+/* .main-body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+form {
+  position: relative;
+}
+
+.subscribe {
+  margin-right: 150px;
+}
+
+.btn-sub {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .footer {
