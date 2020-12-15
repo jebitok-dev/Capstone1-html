@@ -181,6 +181,14 @@ img {
   margin: 8px 0;
 }
 
+.main-color {
+  color: #f54f2b;
+}
+
+/* .one {
+  margin: 10px 100px 10px 100px;
+} */
+
 /* .bg-img {
   background-image: url(../images/schoolgirl.jpg);
   -webkit-background-size: cover;
