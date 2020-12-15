@@ -108,9 +108,14 @@ active {
   z-index: 9;
 }
 
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .img10 {
   width: 30%;
-  /* margin-left: 100px; */
   height: 30%;
 }
 
@@ -146,6 +151,9 @@ active {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.search1 > .space {
+  justify-content: space-around;
+}
 
 header,
 .space {
@@ -173,13 +181,13 @@ img {
   margin: 8px 0;
 }
 
-.bg-img {
+/* .bg-img {
   background-image: url(../images/schoolgirl.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
 .footer1 li {
   display: inline;
@@ -250,5 +258,27 @@ form {
 
   .carousel-caption p {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img10 {
+    width: 60px;
+  }
+
+  .thirty {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .thirty ul {
+    margin-left: 10px;
+  }
+  .thirty ul {
+    margin-left: 0px;
+  }
+  .thirty ul a {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
   }
 }
