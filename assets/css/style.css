@@ -10,7 +10,15 @@ html {
   text-align: center;
 }
 
-.one {
+main {
   width: 100vw;
   height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
 }
