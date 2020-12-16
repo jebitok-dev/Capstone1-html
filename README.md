@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://jebitok-dev.github.io/NextWeb-RWD/) -->
+[Live Demo Link](https://patashule-capstone.netlify.app/)
 
 ## Getting Started
 
