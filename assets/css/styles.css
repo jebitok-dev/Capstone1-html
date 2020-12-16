@@ -35,16 +35,16 @@ active {
 .navbar-light .navbar-nav .active > .navbar-light,
 .navbar-nav .nav-link .active,
 .navbar-light .navbar-nav .nav-link .show > .nav-link {
-  color: #ffffff;
+  color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #ffffff;
+  color: #fff;
 }
 
 .navbar-light .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .container {
@@ -62,7 +62,7 @@ active {
 }
 
 .navbar-light .navbar-brand {
-  color: #ffffff;
+  color: #fff;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -129,19 +129,19 @@ img {
 }
 
 .carousel-caption h4 {
-  color: #ffffff !important;
+  color: #fff !important;
   font-weight: bold;
   font-family: poppins;
 }
 
 .carousel-caption p {
-  color: #ffffff !important;
+  color: #fff !important;
   font-weight: bold;
   font-family: century gothic;
 }
 
 .carousel-caption button {
-  color: #ffffff !important;
+  color: #fff !important;
   padding: 10px 30px !important;
   font-weight: bold;
   outline: none;
@@ -201,7 +201,7 @@ header,
 
 h4 {
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 input,
@@ -248,7 +248,7 @@ input,
 }
 
 .btn {
-  color: #ffffff;
+  color: #fff;
 }
 
 .form1 {
@@ -256,16 +256,12 @@ input,
 }
 
 .heading {
-  bottom: 0px auto;
-}
-
-form {
-  position: relative;
+  bottom: auto;
 }
 
 .footer {
   background-color: black;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -285,18 +281,21 @@ form {
     font-size: 7px;
   }
 
+  form {
+    position: relative;
+  }
+
   .form1 form {
     width: 100%;
     padding: 2px 10px;
-    margin: 8px 0px;
+    margin: 8px;
   }
 
   .carousel-caption button {
-    color: #ffffff !important;
+    color: #fff !important;
     padding: 5px 15px !important;
     font-weight: bold;
     outline: none;
-    border: 0px;
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -312,8 +311,6 @@ form {
     bottom: 2px;
     left: 15%;
     z-index: 10;
-    padding-top: 0px;
-    padding-bottom: 0px;
     color: #fff;
     text-align: center;
   }
@@ -321,11 +318,10 @@ form {
   header,
   .space1,
   .space {
-    padding: 0.8rem 0px;
+    padding: 0.8rem;
   }
 
   .btn-sub {
-    margin-top: 0px;
     margin-bottom: 30px;
   }
 }
@@ -340,9 +336,9 @@ form {
     margin-right: 10px !important;
   }
 
-  .thirty ul {
+  /* .thirty ul {
     margin-left: 0px;
-  }
+  } */
 
   .thirty ul a {
     color: white;
@@ -352,6 +348,6 @@ form {
 
   header,
   .space1 {
-    padding: 1.5rem 0px;
+    padding: 1.5rem;
   }
 }
