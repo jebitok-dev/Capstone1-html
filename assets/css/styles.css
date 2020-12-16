@@ -151,11 +151,35 @@ active {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.search1 > .space {
-  justify-content: space-around;
+
+.search1 {
+  justify-content: space-between;
+}
+
+.image-card1 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.image-card1 img {
+  display: inline;
+  margin: 0 auto;
+  /* margin-left: %; */
+  width: auto;
+}
+
+.search1 {
+  margin: 100px 100px auto;
+  /* margin-right: 100px; */
 }
 
 header,
+.space1 {
+  padding: 4rem 0;
+}
+
 .space {
   padding: 1.5rem 0;
 }
@@ -163,6 +187,10 @@ header,
 h4 {
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.search1 div {
+  width: 50%;
 }
 
 img {
@@ -271,6 +299,12 @@ form {
   .carousel-caption p {
     font-size: 18px;
   }
+
+  header,
+  .space1,
+  .space {
+    padding: 0.8rem 0;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -292,5 +326,10 @@ form {
     color: white;
     margin-left: 20px;
     font-size: 20px;
+  }
+
+  header,
+  .space1 {
+    padding: 1.5rem 0;
   }
 }
