@@ -1,4 +1,4 @@
-active {
+.active {
   color: #f54f2b;
 }
 
@@ -22,28 +22,36 @@ active {
   color: black;
 }
 
+.navbar-nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .thirty ul a {
   color: white;
-  margin-left: 0px;
+  margin-left: 0;
   font-size: 14px;
 }
+
 .thirty ul a:hover {
   color: #f54f2b;
   border-bottom: 1px solid white;
 }
 
-.navbar-light .navbar-nav .active > .navbar-light,
-.navbar-nav .nav-link .active,
-.navbar-light .navbar-nav .nav-link .show > .nav-link {
-  color: #fff;
-}
-
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #fff !important;
 }
 
 .navbar-light .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .navbar-light,
+.navbar-nav .nav-link .active,
+.navbar-light .navbar-nav .nav-link .show > .nav-link {
   color: #fff;
 }
 
@@ -54,11 +62,8 @@ active {
   padding: 0;
 }
 
-.navbar-nav a {
-  font-family: poppins;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
+.navbar-brand {
+  margin-top: 5px;
 }
 
 .navbar-light .navbar-brand {
@@ -69,10 +74,6 @@ active {
   letter-spacing: 2px;
 }
 
-.navbar-brand {
-  margin-top: 5px;
-}
-
 .navbar-toggler {
   font-size: 1.25rem;
   line-height: 1;
@@ -80,10 +81,6 @@ active {
   background-color: white !important;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #fff !important;
 }
 
 .navbar-collapse {
@@ -128,16 +125,21 @@ img {
   text-align: center !important;
 }
 
+h4 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .carousel-caption h4 {
   color: #fff !important;
   font-weight: bold;
-  font-family: poppins;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .carousel-caption p {
   color: #fff !important;
   font-weight: bold;
-  font-family: century gothic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .carousel-caption button {
@@ -161,19 +163,16 @@ img {
   margin-right: 15px;
 }
 
-.sear h5,
-p,
-a {
-  margin-left: 5px;
-  display: block;
-  margin: 2px 0 0 o;
-  text-align: end;
-  margin-bottom: 0;
+.main-color1 {
+  background-color: #f54f2b;
 }
 
-.image-card1 img {
-  margin: 0 auto;
-  width: auto;
+.card-body1 {
+  margin-left: 5px;
+  display: block;
+  margin-top: 2px;
+  text-align: end;
+  margin-bottom: 0;
 }
 
 .image-card1 {
@@ -199,11 +198,6 @@ header,
   padding: 1.5rem 0;
 }
 
-h4 {
-  text-transform: uppercase;
-  color: #fff;
-}
-
 input,
 .form1 input {
   width: 100%;
@@ -219,13 +213,13 @@ input,
 .btn-search {
   background-color: #f54f2b;
   left: 80%;
-  top: 0px;
+  top: 0;
 }
 
 .form1 form {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0px;
+  margin: 8px 0;
 }
 
 .main-color {
