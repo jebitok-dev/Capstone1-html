@@ -13,13 +13,19 @@
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./assets/css/style1.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>PATASHULE - Capstone Project</title>
+    <title>PATASHULE - Capstone Project - Blog</title>
   </head>
   <body>
     <!--   header -->
@@ -71,7 +77,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="search-page.html"
                   ><i class="fa fa-fw fa-user"></i>ABOUT
                 </a>
               </li>
@@ -81,7 +87,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search.html"
+                <a class="nav-link" href=""
                   ><i class="fa fa-fw fa-bars"></i>MORE
                 </a>
               </li>
@@ -139,65 +145,72 @@
     <div class="container">
       <main>
         <section class="align-items-center justify-content-center">
-          <div class="search1 row">
-            <div class="sear main-color1 space col-12">
-              <div class="image-card1">
-                <img
-                  src="./assets/images/kids-phone.jpg"
-                  class="img-thumbnail float-left"
-                  alt="the location"
-                />
+          <div class="d-flex align-items-center about-section">
+            <div class="container-xl about-section4">
+              <div
+                class="justify-content-center row main-color1 align-items-center"
+              >
+                <div class="col align-center">
+                  <p>Over 10.000 schools registered with us</p>
+                  <p>Find a school by using our search engine</p>
+                  <button type="button" class="btn btn-default">
+                    Find a School
+                  </button>
+                  <!-- <a href="#" type="button" class="btn btn-default"
+                    >Find a School</a
+                  > -->
+                </div>
+                <div class="col">
+                  <img
+                    src="./assets/images/kids-phone.jpg"
+                    class="image-fluid avatar1"
+                    alt="phone avatar"
+                  />
+                </div>
               </div>
-              <div class="card-body1 main-color1 float-right">
-                <h5 class="text-white">
-                  Over 10.000 schools registered with us
-                </h5>
-                <p class="text-white">
-                  Find a school by using our search engine
-                </p>
-                <a href="#" class="btn btn-white">Find a School</a>
+              <div
+                class="justify-content-center row bg-secondary align-items-center"
+              >
+                <div class="align-center col">
+                  <p>
+                    No need to take 3 Matatus to find a school in the country
+                  </p>
+                  <p>
+                    Just press or click our search button and you're all set
+                  </p>
+                  <button type="button" class="btn btn-default">
+                    Find a School near you
+                  </button>
+                </div>
+                <div class="col">
+                  <img
+                    src="./assets/images/buses.jpg"
+                    class="img-fluid avatar1"
+                    alt="the tech"
+                  />
+                </div>
               </div>
-            </div>
-            <!-- <div class="w-100"></div> -->
-            <div class="sear bg-secondary space col-12">
-              <div class="image-card1">
-                <img
-                  src="./assets/images/buses.jpg"
-                  class="img-thumbnail avatar float-left"
-                  alt="the school bus"
-                />
-              </div>
-              <div class="card-body1 bg-secondary float-right">
-                <h5 class="text-white">
-                  No need to take 3 Matatus to find a school in the country
-                </h5>
-                <p class="text-white">
-                  Just press or click our search button and you're all set
-                </p>
-                <a href="#" class="btn btn-white text-primary"
-                  >Find a school near you</a
-                >
-              </div>
-            </div>
-            <!-- <div class="w-100"></div> -->
-            <div class="sear bg-primary space col-12">
-              <div class="image-card1">
-                <img
-                  src="./assets/images/tech.jpg"
-                  class="img-thumbnail float-left"
-                  alt="the mobile app"
-                />
-              </div>
-              <div class="card-body1 float-right bg-primary">
-                <h5 class="text-white">Anytime Anywhere Any way!</h5>
-                <p class="text-white">
-                  very convenient platform that one can access using any device
-                  including
-                </p>
-                <p class="text-white">
-                  web app and our mobile app available in your app
-                </p>
-                <p class="text-white">store</p>
+              <div
+                class="justify-content-center row bg-info align-items-center"
+              >
+                <div class="align-center col">
+                  <p>Anytime Anywhere Any way!</p>
+                  <p>
+                    very convenient platform that one can access using any
+                    device
+                  </p>
+                  <p>
+                    web app and our mobile app available in your app including
+                    store
+                  </p>
+                </div>
+                <div class="col">
+                  <img
+                    src="./assets/images/tech.jpg"
+                    class="img-fluid avatar1"
+                    alt="the tech"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -205,51 +218,53 @@
       </main>
     </div>
     <!-- footer -->
-    <section class="footer justify-content-center align-items-center">
-      <hr class="bg-secondary" />
-      <ul class="footer1 list-inline">
-        <li>HOME |</li>
-        <li>SEARCH |</li>
-        <li>ABOUT US |</li>
-        <li>ADVERTISE |</li>
-        <li>
-          <i class="fas fa-map-marker-alt"></i>
-        </li>
-        <li>FACEBOOK |</li>
-        <li>TWITTER |</li>
-        <li>BLOG |</li>
-        <li>GOOGLE+</li>
-      </ul>
-      <hr class="bg-secondary" />
-      <div class="container">
-        <div class="row">
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">SUBSCRIBE</h4>
-            <form class="form-inline">
-              <div class="row">
-                <div class="form-group subscribe">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    placeholder="johndoe@mail.com"
-                  />
+    <section class="footer-fixed justify-content-center align-items-center">
+      <div class="footer container">
+        <hr class="bg-secondary" />
+        <ul class="footer1 list-inline">
+          <li>HOME |</li>
+          <li>SEARCH |</li>
+          <li>ABOUT US |</li>
+          <li>ADVERTISE |</li>
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+          </li>
+          <li>FACEBOOK |</li>
+          <li>TWITTER |</li>
+          <li>BLOG |</li>
+          <li>GOOGLE+</li>
+        </ul>
+        <hr class="bg-secondary" />
+        <div class="">
+          <div class="row">
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="space">SUBSCRIBE</h4>
+              <form class="form-inline">
+                <div class="row">
+                  <div class="form-group subscribe">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      placeholder="johndoe@mail.com"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-sub main-color1">
+                    Send
+                  </button>
                 </div>
-                <button type="submit" class="btn btn-sub main-color1">
-                  Send
-                </button>
-              </div>
-            </form>
-          </div>
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">CONTACT</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>patashule20@mail.com</p>
-          </div>
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">ABOUT</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+              </form>
+            </div>
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="space">CONTACT</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>patashule20@mail.com</p>
+            </div>
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="space">ABOUT</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
           </div>
         </div>
         <!-- footer -->
