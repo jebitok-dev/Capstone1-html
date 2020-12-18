@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# DIRECTORY CAPSTONE PROJECT
+# DIRECTORY OF SCHOOLS CAPSTONE PROJECT
 
-> The Capstone Project for HTML & CSS Module
+> The Capstone Project for completion of HTML & CSS Module.
 
 <!-- ![screenshot](./screenshot-tnw.png) -->
 
 <!-- Additional description about the project and its features. -->
+
+- This project is the implementation of the PataShule directory of schools design using Bootstrap, HTML, CSS(box-model, flex-box, grid and ), github actions and netlify for hosting.
 
 ## Built With
 
@@ -49,10 +51,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- I hereby acknowldge the designers' [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) who designed the [PataShule Directory of Schools](https://www.behance.net/gallery/25563385/PatashuleKE) design that is available on [behance](behance.com).
 - Inspiration
 - etc
 
-## 📝 License
+<!-- ## 📝 License -->
 
-This project is [MIT](lic.url) licensed.
+<!-- This project is [MIT](lic.url) licensed. -->

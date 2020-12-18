@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/css/style1.css">
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>PATASHULE - Capstone Project - Search</title>
@@ -98,98 +99,172 @@
     <!-- main -->
     <div class="container one">
       <main>
+        <section>
+          <form class="search-results">
+            <div class="form-section">
+              <h2>Filter by name, county, school level:</h2>
+            </div>
+
+            <div class="drop-down-section">
+              <div>
+                <label for="find-school">Find a school:*</label>
+                <input type="text" id="find-school" />
+              </div>
+
+              <div>
+                <label for="school-name">Estate name:*</label>
+                <select id="school-name">
+                  <option value="ngara">Ngara High</option>
+                  <option value="limuru">Limuru Girls</option>
+                  <option value="lanet">Lanet Boys</option>
+                  <option value="starehe">Starehe Boys</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="school-location">County:*</label>
+                <select id="school-location">
+                  <option value="kiambu">Kiambu</option>
+                  <option value="machakos">Machakos</option>
+                  <option value="nakuru">Nakuru</option>
+                  <option value="nairobi">Nairobi</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="school-gender">Gender</label>
+                <select id="school-gender">
+                  <option value="boys">Boys</option>
+                  <option value="girls">Girls</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="school-level">School Level*</label>
+                <select id="school-level">
+                  <option value="national">National</option>
+                  <option value="provisional">Provisional</option>
+                  <option value="county">County</option>
+                </select>
+              </div>
+              <label for="school-size">Size:*</label>
+                <select id="school-size">
+                  <option value="600">600</option>
+                  <option value="1000">1000</option>
+                  <option value="200">200</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="search2" class="d-hidden">Size:*</label>
+                <button id="search2" class="search2 btn2">Search</button>
+              </div>
+
+              <div>
+                <label for="clear" class="d-hidden">Size:*</label>
+                <button id="clear" class="clear btn2">
+                  <i class="fas fa-pencil-alt"></i> Clear
+                </button>
+              </div>
+            </div>
+          </form>
         <div class="justify-content-center">
-          <!-- slide search results -->
+          <h2>Search results found 7 schoool(s).</h2>
           <div
             id="carouselExampleControls"
             class="carousel slide"
             data-ride="carousel"
           >
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide" />
-                <div class="carousel-item">
-                  <img
-                    src="./assets/images/cbckids.jpg"
-                    class="img-fluid"
-                    alt="..."
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Thika High</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
                 <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/carousel1.jpg"
                   alt="Second slide"
                 />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Nairobi High</h5>
+                  <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                    <h2 class="h20">Thika High</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
                   </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/car2.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption  centered justify-content-center d-none d-md-block">
+                  <h2 class="h20">Nairobi High</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/car3.jpg"
                   alt="Third slide"
                 />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Juja High</h5>
+                  <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                    <h2 class="h20">Juja High</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
                   </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/carousel1.jpg"
+                  alt="Third slide"
+                />
+                  <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                    <h2 class="h20">Bahati Girls</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
+                  </div>
+              </div>
+              <div class="carousel-item centered justify-content-center">
+                <img
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/car2.jpg"
+                  alt="Third slide"
+                />
+                  <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                    <h2 class="h20">Limuru Girls</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/car3.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                  <h2 class="h20">Makindu High School</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
+                  class="d-block img20 img-fluid w-100"
+                  src="./assets/images/carousel1.jpg"
                   alt="Third slide"
                 />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Bahati Girls</h5>
+                  <div class="carousel-caption centered justify-content-center d-none d-md-block">
+                    <h2 class="h20">St George's Nairobi</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn main-color1 btn-primary" href="./index.html" role="button">Apply</a>
                   </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
-                  alt="Third slide"
-                />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Limuru Girls</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
-                  alt="Third slide"
-                />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Makindu High School</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="./assets/images/cbckids.jpg"
-                  alt="Third slide"
-                />
-                <div class="carousel-item">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>St George's Nairobi</h5>
-                  </div>
-                </div>
               </div>
             </div>
             <a
@@ -218,6 +293,8 @@
             </a>
           </div>
         </div>
+        <div class="space"></div>
+      </section>
       </main>
     </div>
     <!-- footer -->
@@ -296,5 +373,19 @@
         </footer>
       </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script> -->
+      <!-- Carousel -->
+    <!-- <script language="JavaScript" type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 3000
+        })
+      });    
+    </script>  -->
   </body>
 </html>
