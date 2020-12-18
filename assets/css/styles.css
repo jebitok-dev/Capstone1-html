@@ -242,10 +242,9 @@ label {
   justify-content: space-between;
 }
 
-/* .fixed-footer {
-  padding-top: 15px;
-  padding-left: 15px;
-} */
+.main-secondary {
+  background-color: #ccc;
+}
 
 .main-page {
   width: 400px;
