@@ -75,7 +75,7 @@
 }
 
 .navbar-toggler {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   line-height: 1;
   color: white;
   background-color: white !important;
@@ -277,6 +277,37 @@ label {
 .footer {
   background-color: black;
   color: #fff;
+}
+
+.sign-up-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto auto auto;
+}
+
+.sign-up-form input {
+  border: none;
+  border-bottom: 1px dashed black;
+  padding: 6px 0 6px 3px;
+  background-color: rgb(224, 221, 221);
+}
+
+.sign-up-form label {
+  text-transform: uppercase;
+}
+
+.sign-up-button {
+  padding: 10px 0 0 0;
+}
+
+.signupbtn {
+  background-color: #f54f2b;
+  border: none;
+  color: white;
+}
+
+.signinbtn {
+  border: none;
 }
 
 .one {

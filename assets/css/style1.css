@@ -1,25 +1,42 @@
-.carousel-item .in-obj {
+/* .item1 .in-obj {
   top: 50% !important;
   left: 50% !important;
   position: absolute !important;
   transform: translate(-50%, -50%) !important;
   text-align: center !important;
-}
-
-main {
-  margin-top: 100px;
-}
+} */
 
 .main-color1 {
   background-color: #f54f2b;
 }
 
-.carousel-caption .h20 {
+/* .results-grid {
+  grid-gap: 50px;
+} */
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.description h4 {
+  font-size: 18px;
+}
+
+.demo20 img {
+  background-color: rgba(212, 87, 73, 0.95);
+  height: 200px;
+}
+
+/* .carousel-caption .h20 {
   color: #fff !important;
   font-size: 55px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -79,6 +96,20 @@ main {
 
   .drop-down-section label {
     text-transform: uppercase;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .demo20 img {
+    height: 150px;
+  }
+
+  .description h4 {
+    font-size: 12px;
+  }
+
+  h2 {
     font-size: 16px;
   }
 }
