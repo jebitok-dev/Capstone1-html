@@ -15,7 +15,7 @@
 }
 
 .thirty ul {
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 .footer1 a {
@@ -107,11 +107,6 @@
   z-index: 1009;
 }
 
-/* img {
-  height: auto;
-  width: 100%;
-} */
-
 .carousel-item img {
   width: 100%;
   height: 100%;
@@ -133,7 +128,8 @@
 h1 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 48px;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 .carousel-caption h1 {
@@ -283,6 +279,10 @@ label {
   color: #fff;
 }
 
+.footer-fixed .container {
+  background-color: black;
+}
+
 .sign-up-form {
   padding: 20px;
   max-width: 400px;
@@ -320,6 +320,10 @@ label {
 
 .about-section4 {
   color: #fff;
+}
+
+.seach-results {
+  margin-bottom: 30px;
 }
 
 .about-section4 button {
@@ -374,6 +378,7 @@ hr {
 @media (max-width: 768px) {
   h1 {
     line-height: inherit;
+    font-size: 16px;
   }
 
   .img10 {
@@ -402,7 +407,7 @@ hr {
 
   .carousel-caption button {
     color: #fff !important;
-    padding: 5px 15px !important;
+    padding: 5px 10px !important;
     font-weight: bold;
     outline: none;
     font-size: 15px;
@@ -443,18 +448,15 @@ hr {
     margin-right: 10px !important;
   }
 
-  /* .thirty ul {
-    margin-left: 0px;
-  } */
+  h1 {
+    font-size: 24px;
+    font-weight: lighter;
+  }
 
   .thirty ul a {
     color: white;
     margin-left: 20px;
     font-size: 20px;
-  }
-
-  h1 {
-    font-size: 24px;
   }
 
   header,
@@ -472,5 +474,15 @@ hr {
     margin: auto;
     float: none;
     display: block;
+  }
+
+  .carousel-caption button {
+    color: #fff !important;
+    padding: 5px 5px !important;
+    font-weight: bold;
+    outline: none;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
