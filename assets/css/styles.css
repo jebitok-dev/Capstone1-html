@@ -224,6 +224,10 @@ header,
   font-size: 15px;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .main-color {
   color: #f54f2b;
 }

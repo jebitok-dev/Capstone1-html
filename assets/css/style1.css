@@ -1,18 +1,6 @@
-/* .item1 .in-obj {
-  top: 50% !important;
-  left: 50% !important;
-  position: absolute !important;
-  transform: translate(-50%, -50%) !important;
-  text-align: center !important;
-} */
-
 .main-color1 {
   background-color: #f54f2b;
 }
-
-/* .results-grid {
-  grid-gap: 50px;
-} */
 
 .description {
   position: absolute;
@@ -27,7 +15,7 @@
 }
 
 .demo20 img {
-  background-color: rgba(212, 87, 73, 0.95);
+  background-color: rgb(230, 81, 48);
   height: 200px;
 }
 
