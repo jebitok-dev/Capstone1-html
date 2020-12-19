@@ -4,7 +4,7 @@
 
 > The Capstone Project for completion of HTML & CSS Module.
 
-<!-- ![screenshot](./screenshot-tnw.png) -->
+![screenshot](./assets/images/Screenshot_Home.png)
 
 <!-- Additional description about the project and its features. -->
 

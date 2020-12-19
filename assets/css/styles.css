@@ -107,10 +107,10 @@
   z-index: 1009;
 }
 
-img {
+/* img {
   height: auto;
   width: 100%;
-}
+} */
 
 .carousel-item img {
   width: 100%;
@@ -147,6 +147,10 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.img15 {
+  height: 360px;
+}
+
 .carousel-caption button {
   color: #fff !important;
   padding: 10px 30px !important;
@@ -156,6 +160,11 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+/* .img-foot {
+  width: 5px;
+  height: 5px;
+} */
 
 .sear {
   width: 400px;

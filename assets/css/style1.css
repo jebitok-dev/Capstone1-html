@@ -37,7 +37,6 @@ main {
 
 .centered {
   margin-bottom: 100px;
-  /* background-color: rgba(255, 255, 255, 0.45); */
 }
 
 .carousel-caption button {
@@ -83,21 +82,6 @@ main {
     font-size: 16px;
   }
 }
-
-/* .drop-down-section {
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-}
-
-.drop-down-section input {
-  border-radius: 3px;
-}
-
-.drop-down-section label {
-  text-transform: uppercase;
-  font-size: 16px;
-}*/
 
 .drop-down-section .button0 button {
   background-color: blue;
