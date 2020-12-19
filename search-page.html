@@ -34,60 +34,61 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <a class="navbar-brand" href="#"
             ><img
-              src="./assets/images/logo.svg"
+              src="./assets/images/patashule.svg"
               alt="the logo"
               class="img-fluid img-10"
           /></a>
-          <a
-            href="#"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Search"
-            ><i class="fa fa-fw fa-search"></i
-          ></a>
-          <a
-            href="#"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="User"
-            ><i class="fa fa-fw fa-user"></i
-          ></a>
-          <a
-            href="search.html"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Blog"
-            ><i class="fa fa-fw fa-rss"></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
+          <div>
+            <a
+              href="./search-page.html"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="Search"
+              ><i class="fa fa-fw fa-search"></i
+            ></a>
+            <a
+              href="./index.html"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="User"
+              ><i class="fa fa-fw fa-user"></i
+            ></a>
+            <a
+              href="#blog"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="Blog"
+              ><i class="fa fa-fw fa-rss"></i
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"
+                <a class="nav-link" href="./search-page.html"
                   ><i class="fa fa-fw fa-search"></i>SCHOOLS
                   <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search-page.html"
+                <a class="nav-link" href="./index.html"
                   ><i class="fa fa-fw fa-user"></i>ABOUT
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search.html"
+                <a class="nav-link" href="#blog"
                   ><i class="fa fa-fw fa-rss"></i>BLOG
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""
+                <a class="nav-link" href="./index.html"
                   ><i class="fa fa-fw fa-bars"></i>MORE
                 </a>
               </li>
@@ -168,14 +169,12 @@
                 </div>
 
                 <div>
-                  <!-- <label for="search2" class="d-hidden"></label> -->
                   <button id="search2" class="search2 btn2 btn-info">
                     Search
                   </button>
                 </div>
 
                 <div>
-                  <!-- <label for="clear" class="d-hidden">Size:*</label> -->
                   <button id="clear" class="clear btn2 btn-warning">
                     <i class="fas fa-pencil-alt"></i> Clear
                   </button>
@@ -336,51 +335,68 @@
       </main>
     </div>
     <!-- footer -->
-    <section class="footer justify-content-center align-items-center">
-      <hr class="bg-secondary" />
-      <ul class="footer1 list-inline">
-        <li>HOME |</li>
-        <li>SEARCH |</li>
-        <li>ABOUT US |</li>
-        <li>ADVERTISE |</li>
-        <li>
-          <i class="fas fa-map-marker-alt"></i>
-        </li>
-        <li>FACEBOOK |</li>
-        <li>TWITTER |</li>
-        <li>BLOG |</li>
-        <li>GOOGLE+</li>
-      </ul>
-      <hr class="bg-secondary" />
+    <section class="footer-fixed justify-content-center align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">SUBSCRIBE</h4>
-            <form class="form-inline">
-              <div class="row">
-                <div class="form-group subscribe">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    placeholder="johndoe@mail.com"
-                  />
+        <div class="footer">
+          <div>
+            <hr class="bg-secondary" />
+            <ul class="footer1 list-inline">
+              <li>HOME |</li>
+              <li>SEARCH |</li>
+              <li>ABOUT US |</li>
+              <li>ADVERTISE |</li>
+              <li>
+                <img
+                  src="./assets/images/map2.svg"
+                  alt=""
+                  clas="d-none d-md-block img-foot"
+                />
+              </li>
+              <li>| FACEBOOK |</li>
+              <li>TWITTER |</li>
+              <li>BLOG |</li>
+              <li>GOOGLE+</li>
+            </ul>
+            <!-- <div>
+              
+            </div> -->
+            <hr class="bg-secondary" />
+          </div>
+          <div class="row">
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="">SUBSCRIBE</h4>
+              <form class="form-inline">
+                <div class="row">
+                  <div class="form-group subscribe">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      placeholder="johndoe@mail.com"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-sub main-color1">
+                    Send
+                  </button>
                 </div>
-                <button type="submit" class="btn btn-sub main-color1">
-                  Send
-                </button>
-              </div>
-            </form>
-          </div>
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">CONTACT</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>patashule20@mail.com</p>
-          </div>
-          <div class="col d-flex col-sm flex-column align-items-center">
-            <h4 class="space">ABOUT</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+              </form>
+            </div>
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="">CONTACT</h4>
+              <p class="d-none d-sm-block">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <p class="main-color">patashule20@mail.com</p>
+            </div>
+            <div class="col d-flex col-sm flex-column align-items-center">
+              <h4 class="">ABOUT</h4>
+              <p class="d-none d-sm-block">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </p>
+              <p class="d-none d-sm-none d-md-block">
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
           </div>
         </div>
         <!-- footer -->
@@ -427,15 +443,5 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <!-- <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
-    <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script> -->
-    <!-- Carousel -->
-    <!-- <script language="JavaScript" type="text/javascript">
-      $(document).ready(function(){
-        $('.carousel').carousel({
-          interval: 3000
-        })
-      });    
-    </script>  -->
   </body>
 </html>

@@ -33,60 +33,61 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <a class="navbar-brand" href="#"
             ><img
-              src="./assets/images/img20.svg"
+              src="./assets/images/patashule.svg"
               alt="the logo"
               class="img-fluid img-10"
           /></a>
-          <a
-            href="#"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Search"
-            ><i class="fa fa-fw fa-search"></i
-          ></a>
-          <a
-            href="#"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="User"
-            ><i class="fa fa-fw fa-user"></i
-          ></a>
-          <a
-            href="search.html"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Blog"
-            ><i class="fa fa-fw fa-rss"></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
+          <div>
+            <a
+              href="./search-page.html"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="Search"
+              ><i class="fa fa-fw fa-search"></i
+            ></a>
+            <a
+              href="./index.html"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="User"
+              ><i class="fa fa-fw fa-user"></i
+            ></a>
+            <a
+              href="#blog"
+              class="navbar-toggler navbar-toggler--search nav-icon"
+              aria-label="Blog"
+              ><i class="fa fa-fw fa-rss"></i
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"
+                <a class="nav-link" href="./search-page.html"
                   ><i class="fa fa-fw fa-search"></i>SCHOOLS
                   <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search-page.html"
+                <a class="nav-link" href="./index.html"
                   ><i class="fa fa-fw fa-user"></i>ABOUT
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search.html"
+                <a class="nav-link" href="#blog"
                   ><i class="fa fa-fw fa-rss"></i>BLOG
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""
+                <a class="nav-link" href="./index.html"
                   ><i class="fa fa-fw fa-bars"></i>MORE
                 </a>
               </li>
@@ -115,21 +116,24 @@
                 </h1>
               </div>
               <form class="justify-content-center d-none d-sm-block">
-                <div class="d-flex search-bar1 flex-column">
-                  <label for="search-bar1" class="text-body"
-                    >SEARCH BY KEYWORD:</label
-                  >
-                  <div class="form-group">
-                    <div
-                      class="search-input1 flex-column d-lg-flex flex-column"
+                <div class="d-flex search-bar1">
+                  <div>
+                    <label for="search-bar1" class="text-body"
+                      >SEARCH BY KEYWORD:</label
                     >
+                  </div>
+                  <div class="form-group">
+                    <div class="search-input1 d-lg-flex">
                       <input
                         type="text"
                         class="search-bar1 form-control"
                         id="search-input"
                         placeholder=""
                       />
-                      <button type="submit" class="btn btn-search text-white">
+                      <button
+                        type="submit"
+                        class="btn btn-search main-color1 text-white"
+                      >
                         Search
                       </button>
                     </div>
@@ -224,7 +228,7 @@
           <div class="space d-none d-sm-block d-md-none"></div>
           <div class="space d-none d-sm-block d-md-none"></div>
           <div class="space d-none d-sm-block d-md-none"></div>
-          <div class="d-flex align-items-center about-section">
+          <div class="d-flex align-items-center about-section" id="blog">
             <div class="container-xl about-section4">
               <div
                 class="justify-content-center d-flex row main-color1 align-items-center"
@@ -366,7 +370,6 @@
         <!-- footer -->
         <footer class="bg-secondary">
           <ul class="footer1 list-inline list-group-horizontal pull-left">
-            <!-- socialmedia icons 400px -->
             <li class="d-inline">
               <a href="#"><i class="fa fa-fw fa-facebook-official"></i></a>
             </li>
