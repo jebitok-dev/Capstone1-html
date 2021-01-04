@@ -310,6 +310,48 @@ label {
   background-color: #ccc;
 }
 
+#brook {
+  font-size: 36px;
+}
+
+.brook,
+.map-directions h3 {
+  font-size: 15px;
+  color: #f54f2b;
+  padding-top: 20px;
+}
+
+.homes-border {
+  border: 1px solid gray;
+  -webkit-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+  -moz-box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+  box-shadow: 1px 6px 24px -14px rgba(10, 10, 10, 1);
+}
+
+.homes-container div {
+  font-size: 15px;
+}
+
+.location-l {
+  margin-top: 200px;
+}
+
+.border-ar {
+  border-style: solid;
+}
+
+.description-homes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90vw;
+}
+
 .main-page {
   width: 400px;
   height: 400px;

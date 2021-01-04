@@ -26,8 +26,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>PATASHULE - Capstone Project - Home</title>
   </head>
-  <body class="flex">
-    <!-- header -->
+  <body class="flex flex-column">
     <section class="nav-section main-color1 container">
       <div class="thirty">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -94,85 +93,85 @@
         </nav>
       </div>
     </section>
-    <header>
-      <h1 class="main-color">Pata shule works in four simple steps.</h1>
-    </header>
-    <!-- main -->
     <main>
-      <div class="container">
-        <form action="sign-up.html" class="sign-up-form">
-          <div class="sign-up-container d-flex flex-column">
-            <label for="name">First Name*</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="First Name"
-              name="name"
-              required
-            />
-
-            <label for="second">Second Name</label>
-            <input
-              type="text"
-              id="second"
-              placeholder="Second Name"
-              name="name"
-              required
-            />
-
-            <label for="email">Email</label>
-            <input
-              type="text"
-              id="email"
-              placeholder="Email"
-              name="email"
-              required
-            />
-
-            <label for="psw">Username*</label>
-            <input
-              type="text"
-              id="psw"
-              placeholder="Username"
-              name="name"
-              required
-            />
-
-            <label for="pswd">Username*</label>
-            <input
-              type="password"
-              id="pswd"
-              placeholder="Username"
-              name="name"
-              required
-            />
-
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter Password"
-              name="password"
-              required
-            />
-
-            <label for="psw-repeat">Confirm Password</label>
-            <input
-              type="password"
-              id="psw-repeat"
-              placeholder="Confirm Password"
-              name="password-rpt"
-              required
-            />
-
-            <div class="sign-up-button">
-              <button type="submit" class="signupbtn">Sign Up</button>
-              <button type="button" class="signinbtn">Sign in</button>
+        <div class="container location-l">
+        <div class="homes-container d-flex flex-column align-items-center">
+            <div class="homes-border">
+              <div class="d-flex flex-column align-items-start brook">
+                <div id="brook"><i class="fa fa-fw fa-shield"></i> LIMURU GIRLS</div>
+              </div>
+            <div class="description-homes">
+                <div class="border no-of-rooms">
+                <div>TYPE:</div>
+                </div>
+                <div class="border house-design">
+                  <div>LEVEL: <span class="text-primary">SECONDARY</span></div>
+                </div>
+                <div class="border no-of-rooms">
+                  <div>SYSTEM:</div>
+                </div>
+                <div class="border location6">
+                  <div>GENDER: <span class="text-primary">FEMALE</span></div>
+                </div>
+                <div class="border county">
+                  <div>COUNTY: <span class="text-primary">KIAMBU</span></div>
+                </div>
+                <div class="border email">
+                  <div>EMAIL: <span class="text-primary">limurugrls@st.com</span></div>
+                </div>
+                <div class="border size">
+                  <div>RESIDENCE: <span class="text-primary">BOARDING</span></div>
+                </div>
+                <div class="border price-range">
+                  <div>PERFOMANCE: <span class="text-primary">B+</span></div>
+                </div>
             </div>
-          </div>
-        </form>
-      </div>
+            <div class="homes-apply d-flex flex-column align-items-end">
+                <div>
+                <button class="apply-button btn-primary">
+                    <i class="fa fa-fw fa-envelope"></i> Apply
+                </button>
+                </div>
+                <div class="home-info d-sm-flex flex-row">
+                <div class="telephone"><i class="fa fa-fw fa-phone text-primary"></i> TELL:</div>
+                <div class="age"><i class="fa fa-fw fa-transport text-primary"></i>TRANSPORT: <span class="text-primary">YES</span></div>
+                <div class="website">
+                    <i class="fa fa-fw fa-tv text-primary"></i> WEBSITE: <span class="text-primary">LIMGRLS.COM</span>
+                </div>
+                <div class="population">
+                    <i class="fa  fa-fw fa-users text-primary"></i> STUDENTS ENROLLED: <span class="text-primary">700</span>
+                </div>
+                <div class="support">
+                    <i class="fa fa-fw fa-money text-primary"></i>STUDENT SUPPORT: <span class="text-primary">YES</span>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="home-more-info">
+            <p>
+                Among the misunderstandings when comes to CodeIgniter are related to multiple file(image) uploading and</p>
+                <p>image manipulation. So I thought I'd give a try (with the help of a reader's request). I can't stress out enough</p> 
+                <p>this is not just a copy/paste people in the world please read before taking</p> 
+                <a href="">CLICK TO VIEW MORE DETAILS</a>
+            </p>
+            </div>
+            <div class="map-directions">
+            <h3><i class="fa fa-fw fa-compass"></i> MAP DIECTIONS</h3>
+            <div class="google-embed">
+                <div class="mapouter">
+                <div class="gmap-canvas">
+                    <iframe
+                    class="gmap-canvas"
+                    src="https://maps.google.com/maps?q=intercontinental%20nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    ></iframe>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
     </main>
+    <!-- footer -->
     <section class="footer-fixed justify-content-center align-items-center">
       <div class="container">
         <div class="footer">
@@ -194,7 +193,7 @@
             <hr class="bg-secondary" />
           </div>
           <div class="row">
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">SUBSCRIBE</h4>
               <form class="form-inline">
                 <div class="row">
@@ -212,17 +211,17 @@
                 </div>
               </form>
             </div>
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">CONTACT</h4>
               <p class="d-none d-sm-block">
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <p class="main-color">patashule20@mail.com</p>
             </div>
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">ABOUT</h4>
               <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                Lorem ipsum dolor sit amet, consectetur.
               </p>
               <p class="d-none d-sm-none d-md-block">
                 Lorem ipsum dolor sit amet.
@@ -230,8 +229,9 @@
             </div>
           </div>
         </div>
-        <footer class="bg-secondary">
-          <ul class="footer1 list-inline list-group-horizontal pull-left">
+        <!-- footer -->
+        <footer class="footer2">
+          <ul class="footer1 list-inline pull-left">
             <li class="d-inline">
               <a href="#"><i class="fa fa-fw fa-facebook-official"></i></a>
             </li>
@@ -248,7 +248,7 @@
               <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
             </li>
           </ul>
-          <ul class="footer1 list-inline list-group-horizontal pull-right">
+          <ul class="footer1 list-inline pull-right">
             <li class="d-inline"><a href="#">© 2020 patashule.co.ke |</a></li>
             <li class="d-inline"><a href="#">Contact |</a></li>
             <li class="d-inline"><a href="#">Terms |</a></li>
