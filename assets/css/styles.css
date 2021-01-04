@@ -23,7 +23,6 @@
 }
 
 .navbar-nav a {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -140,13 +139,11 @@ h1 {
 .carousel-caption h1 {
   color: #fff !important;
   font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .carousel-caption p {
   color: #fff !important;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .img15 {
@@ -170,6 +167,18 @@ h1 {
   width: 120px;
   margin: auto;
   margin-bottom: 5px;
+}
+
+.footer-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #050505;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
 }
 
 .btntop {
@@ -364,6 +373,10 @@ label {
 
 .heading {
   bottom: auto;
+}
+
+section {
+  margin: 0;
 }
 
 .footer {
