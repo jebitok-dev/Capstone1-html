@@ -101,79 +101,81 @@
         <section>
           <div class="row main-secondary form-two">
             <form class="search-results">
-              <div class="form-section d-flex">
-                <h1 class="bold text-h2 text-center">
-                  Filter by name, county, school level:
-                </h1>
-              </div>
-
-              <div
-                class="d-flex pt-4 pb-4 justify-content-center align-items-center drop-down-section"
-              >
-                <div>
-                  <label for="find-school">Find a School:*</label>
-                  <input type="text" id="find-school" />
+              <div class="margin-cent">
+                <div class="form-section d-flex">
+                  <h1 class="bold text-h2 pt-2 pt-2">
+                    Filter by name, county, school level:
+                  </h1>
                 </div>
 
-                <div>
-                  <label for="school-name">SCHOOL NAME:*</label>
-                  <select id="school-name">
-                    <option value="ngara">Ngara High</option>
-                    <option value="limuru">Limuru Girls</option>
-                    <option value="lanet">Lanet Boys</option>
-                    <option value="starehe">Starehe Boys</option>
-                  </select>
-                </div>
+                <div
+                  class="d-flex pt-4 pb-4 justify-content-center align-items-center drop-down-section"
+                >
+                  <div>
+                    <label for="find-school">Find a School:*</label>
+                    <input type="text" id="find-school" />
+                  </div>
 
-                <div>
-                  <label for="school-location">COUNTY:*</label>
-                  <select id="school-location">
-                    <option value="kiambu">Kiambu</option>
-                    <option value="machakos">Machakos</option>
-                    <option value="nakuru">Nakuru</option>
-                    <option value="nairobi">Nairobi</option>
-                  </select>
-                </div>
+                  <div>
+                    <label for="school-name">SCHOOL NAME:*</label>
+                    <select id="school-name">
+                      <option value="ngara">Ngara High</option>
+                      <option value="limuru">Limuru Girls</option>
+                      <option value="lanet">Lanet Boys</option>
+                      <option value="starehe">Starehe Boys</option>
+                    </select>
+                  </div>
 
-                <div>
-                  <label for="school-gender">Gender</label>
-                  <select id="school-gender">
-                    <option value="boys">Boys</option>
-                    <option value="girls">Girls</option>
-                    <option value="mixed">Mixed</option>
-                    <option value="girls">Girls</option>
-                  </select>
-                </div>
+                  <div>
+                    <label for="school-location">COUNTY:*</label>
+                    <select id="school-location">
+                      <option value="kiambu">Kiambu</option>
+                      <option value="machakos">Machakos</option>
+                      <option value="nakuru">Nakuru</option>
+                      <option value="nairobi">Nairobi</option>
+                    </select>
+                  </div>
 
-                <div>
-                  <label for="school-level">School Level*</label>
-                  <select id="school-level">
-                    <option value="national">National</option>
-                    <option value="provisional">Provisional</option>
-                    <option value="county">County</option>
-                    <option value="district">District</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="school-size">Size:*</label>
-                  <select id="school-size">
-                    <option value="600">600</option>
-                    <option value="1000">1000</option>
-                    <option value="200">200</option>
-                    <option value="400">400</option>
-                  </select>
-                </div>
+                  <div>
+                    <label for="school-gender">Gender</label>
+                    <select id="school-gender">
+                      <option value="boys">Boys</option>
+                      <option value="girls">Girls</option>
+                      <option value="mixed">Mixed</option>
+                      <option value="girls">Girls</option>
+                    </select>
+                  </div>
 
-                <div>
-                  <button id="search2" class="search2 btn2 btn-info">
-                    Search
-                  </button>
-                </div>
+                  <div>
+                    <label for="school-level">School Level*</label>
+                    <select id="school-level">
+                      <option value="national">National</option>
+                      <option value="provisional">Provisional</option>
+                      <option value="county">County</option>
+                      <option value="district">District</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="school-size">Size:*</label>
+                    <select id="school-size">
+                      <option value="600">600</option>
+                      <option value="1000">1000</option>
+                      <option value="200">200</option>
+                      <option value="400">400</option>
+                    </select>
+                  </div>
 
-                <div>
-                  <button id="clear" class="clear btn2 btn-warning btn">
-                    <i class="fa fa-fw fa-pencil"></i> Clear
-                  </button>
+                  <div>
+                    <button id="search2" class="search2 btn2 btn-info">
+                      Search
+                    </button>
+                  </div>
+
+                  <div>
+                    <button id="clear" class="clear btn2 btn-warning btn">
+                      <i class="fa fa-fw fa-pencil"></i> Clear
+                    </button>
+                  </div>
                 </div>
               </div>
             </form>
@@ -278,62 +280,97 @@
     <section class="footer-fixed justify-content-center align-items-center">
       <div class="container">
         <div class="footer">
-          <div>
-            <hr class="bg-secondary" />
-            <ul class="footer1 list-inline">
-              <li>HOME |</li>
-              <li>SEARCH |</li>
-              <li>ABOUT US |</li>
-              <li>ADVERTISE |</li>
-              <li>
-                <img src="./assets/images/map2.svg" alt="" class="img-foot" />
-              </li>
-              <li>| FACEBOOK |</li>
-              <li>TWITTER |</li>
-              <li>BLOG |</li>
-              <li>GOOGLE+</li>
-            </ul>
-            <hr class="bg-secondary" />
+          <div class="footer_1">
+            <div
+              class="container-xl d-flex justify-content-between footer__nav low-res"
+            >
+              <ul class="list-unstyled d-flex footer__ul">
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#">HOME</a>
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >SEARCH</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >ADVERTISE</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex footer__ul">
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >FACEBOOK</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >TWITTER</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#">BLOG</a>
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >GOOGLE+</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__circle d-none d-lg-block">
+              <img
+                src="./assets/images/map2.svg"
+                alt="map2"
+                class="footer__circle-icon"
+              />
+            </div>
           </div>
           <div class="row">
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">SUBSCRIBE</h4>
               <form class="form-inline">
                 <div class="row">
                   <div class="form-group subscribe">
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control rounded-0 bg-dark border-0"
                       id="exampleInputEmail1"
                       placeholder="johndoe@mail.com"
                     />
                   </div>
-                  <button type="submit" class="btn btn-sub main-color1">
+                  <button
+                    type="submit"
+                    class="btn rounded-0 border-0 btn-sub btn-secondary"
+                  >
                     Send
                   </button>
                 </div>
               </form>
             </div>
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">CONTACT</h4>
-              <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+              <p class="">Lorem ipsum dolor sit amet consectetur.</p>
               <p class="main-color">patashule20@mail.com</p>
             </div>
-            <div class="col d-flex col-sm flex-column align-items-center">
+            <div class="col d-flex flex-column align-items-center">
               <h4 class="">ABOUT</h4>
-              <p class="d-none d-sm-block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
-              </p>
-              <p class="d-none d-sm-none d-md-block">
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p class="">Lorem ipsum dolor sit amet,</p>
+              <p class="">Lorem ipsum dolor sit.</p>
+              <p class="main-color">Learn More...</p>
             </div>
           </div>
         </div>
-        <footer class="bg-dark">
-          <ul class="footer1 list-inline list-group-horizontal pull-left">
+        <!-- footer -->
+        <footer class="footer2">
+          <ul class="footer1 list-inline pull-left">
             <li class="d-inline">
               <a href="#"><i class="fa fa-fw fa-facebook-official"></i></a>
             </li>
@@ -350,7 +387,7 @@
               <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
             </li>
           </ul>
-          <ul class="footer1 list-inline list-group-horizontal pull-right">
+          <ul class="footer1 list-inline pull-right">
             <li class="d-inline"><a href="#">© 2020 patashule.co.ke |</a></li>
             <li class="d-inline"><a href="#">Contact |</a></li>
             <li class="d-inline"><a href="#">Terms |</a></li>

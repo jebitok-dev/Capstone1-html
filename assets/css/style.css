@@ -24,3 +24,7 @@ body {
   min-height: 100%;
   overflow-x: hidden;
 }
+
+main {
+  margin-bottom: 0;
+}

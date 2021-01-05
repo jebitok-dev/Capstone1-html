@@ -131,8 +131,6 @@
 h1 {
   text-transform: uppercase;
   color: #fff;
-
-  /* font-size: 32px; */
   font-weight: lighter;
 }
 
@@ -167,18 +165,6 @@ h1 {
   width: 120px;
   margin: auto;
   margin-bottom: 5px;
-}
-
-.footer-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #050505;
-  height: 14rem;
-  width: 14rem;
-  border-radius: 50%;
-  border: 1px solid #fff;
 }
 
 .btntop {
@@ -225,6 +211,11 @@ h1.billboard {
 
 .main-color1 {
   background-color: #f54f2b;
+}
+
+.margin-cent {
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .card-body1 {
@@ -310,6 +301,69 @@ label {
   padding: 20px;
 }
 
+.footer_1 {
+  position: relative;
+  background-color: #050505;
+  height: 20rem;
+}
+
+.footer__nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__ul {
+  margin-bottom: 0;
+}
+
+.footer__ul-li {
+  padding: 2rem 2.2rem;
+}
+
+.footer__ul-li:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.footer__ul-a,
+.footer__ul-a:hover {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer__circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #050505;
+  height: 8rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.footer__circle-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer__circle:hover {
+  cursor: pointer;
+  background-color: #444;
+  height: 14rem;
+}
+
 .footer1 li {
   display: inline;
   justify-content: space-between;
@@ -317,6 +371,10 @@ label {
 
 .main-secondary {
   background-color: #ccc;
+}
+
+.text-h2 {
+  margin-right: auto;
 }
 
 #brook {

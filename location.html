@@ -183,7 +183,6 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0556055757625!2d36.68478031412471!3d-1.1203379991827929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2779e1c9cf3d%3A0x75415b44105f9b5!2sLimuru%20Girls!5e0!3m2!1sen!2ske!4v1609763574978!5m2!1sen!2ske"
                     width="600"
                     height="450"
-                    frameborder="0"
                     allowfullscreen=""
                     aria-hidden="false"
                     tabindex="0"
@@ -272,22 +271,58 @@
     <section class="footer-fixed justify-content-center align-items-center">
       <div class="container">
         <div class="footer">
-          <div>
-            <hr class="bg-secondary" />
-            <ul class="footer1 list-inline">
-              <li>HOME |</li>
-              <li>SEARCH |</li>
-              <li>ABOUT US |</li>
-              <li>ADVERTISE |</li>
-              <li>
-                <img src="./assets/images/map2.svg" alt="" class="img-foot" />
-              </li>
-              <li>| FACEBOOK |</li>
-              <li>TWITTER |</li>
-              <li>BLOG |</li>
-              <li>GOOGLE+</li>
-            </ul>
-            <hr class="bg-secondary" />
+          <div class="footer_1">
+            <div
+              class="container-xl d-flex justify-content-between footer__nav low-res"
+            >
+              <ul class="list-unstyled d-flex footer__ul">
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#">HOME</a>
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >SEARCH</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >ADVERTISE</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex footer__ul">
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >FACEBOOK</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >TWITTER</a
+                  >
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#">BLOG</a>
+                </li>
+                <li class="footer__ul-li">
+                  <a class="text-decoration-none footer__ul-a" href="#"
+                    >GOOGLE+</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__circle d-none d-lg-block">
+              <img
+                src="./assets/images/map2.svg"
+                alt="map2"
+                class="footer__circle-icon"
+              />
+            </div>
           </div>
           <div class="row">
             <div class="col d-flex flex-column align-items-center">
@@ -297,12 +332,17 @@
                   <div class="form-group subscribe">
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control rounded-0 bg-dark border-0"
                       id="exampleInputEmail1"
                       placeholder="johndoe@mail.com"
                     />
                   </div>
-                  <button type="submit" class="btn btn-sub">Send</button>
+                  <button
+                    type="submit"
+                    class="btn rounded-0 border-0 btn-sub btn-secondary"
+                  >
+                    Send
+                  </button>
                 </div>
               </form>
             </div>
@@ -313,8 +353,9 @@
             </div>
             <div class="col d-flex flex-column align-items-center">
               <h4 class="">ABOUT</h4>
-              <p class="">Lorem ipsum dolor sit</p>
+              <p class="">Lorem ipsum dolor sit amet,</p>
               <p class="">Lorem ipsum dolor sit.</p>
+              <p class="main-color">Learn More...</p>
             </div>
           </div>
         </div>
