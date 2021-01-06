@@ -312,8 +312,8 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .footer__ul {
@@ -321,7 +321,7 @@ label {
 }
 
 .footer__ul-li {
-  padding: 2rem 2.2rem;
+  padding: 2rem 1.8rem;
 }
 
 .footer__ul-li:hover {
@@ -381,6 +381,10 @@ label {
 
 #brook {
   font-size: 36px;
+}
+
+.space-bottom {
+  margin-bottom: 50px;
 }
 
 .map-directions h3 {
@@ -610,15 +614,9 @@ hr {
 }
 
 @media (max-width: 500px) {
-  .col-stl {
-    text-align: center;
-  }
-
-  .col-stl img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
+  /* .footer__ul-li {
+    padding: 0.1rem 0.3rem;
+  } */
 
   .carousel-caption button {
     color: #fff !important;
