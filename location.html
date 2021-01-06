@@ -94,178 +94,270 @@
       </div>
     </section>
     <main>
-      <div class="container location-l">
-        <div class="homes-container d-flex flex-column align-items-center">
-          <div class="homes-border">
-            <div class="d-flex flex-column align-items-start brook main-color">
-              <div id="brook">
-                <i class="fa fa-fw fa-shield"></i>LIMURU GIRLS
+      <section class="top-margin1">
+        <div class="row main-secondary d-none d-lg-block form-two">
+          <form class="search-results">
+            <div class="margin-cent">
+              <div class="form-section d-flex">
+                <h1 class="bold text-muted text-h2 pt-2 pt-2">
+                  Filter by name, county, school level:
+                </h1>
               </div>
-            </div>
-            <div class="description-homes">
-              <div class="border no-of-rooms">
-                <div>TYPE:</div>
-              </div>
-              <div class="border house-design">
-                <div>LEVEL: <span class="text-primary">SECONDARY</span></div>
-              </div>
-              <div class="border no-of-rooms">
-                <div>SYSTEM:</div>
-              </div>
-              <div class="border location6">
-                <div>GENDER: <span class="text-primary">FEMALE</span></div>
-              </div>
-              <div class="border county">
-                <div>COUNTY: <span class="text-primary">KIAMBU</span></div>
-              </div>
-              <div class="border email">
+
+              <div
+                class="d-flex pt-4 pb-4 justify-content-center align-items-center drop-down-section"
+              >
                 <div>
-                  EMAIL: <span class="text-primary">limurugrls@st.com</span>
+                  <label for="find-school">Find a School:*</label>
+                  <input type="text" id="find-school" />
                 </div>
-              </div>
-              <div class="border size">
-                <div>RESIDENCE: <span class="text-primary">BOARDING</span></div>
-              </div>
-              <div class="border price-range">
-                <div>PERFOMANCE: <span class="text-primary">B+</span></div>
+
+                <div>
+                  <label for="school-name">SCHOOL NAME:*</label>
+                  <select id="school-name">
+                    <option value="ngara">Ngara High</option>
+                    <option value="limuru">Limuru Girls</option>
+                    <option value="lanet">Lanet Boys</option>
+                    <option value="starehe">Starehe Boys</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="school-location">COUNTY:*</label>
+                  <select id="school-location">
+                    <option value="kiambu">Kiambu</option>
+                    <option value="machakos">Machakos</option>
+                    <option value="nakuru">Nakuru</option>
+                    <option value="nairobi">Nairobi</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="school-gender">Gender</label>
+                  <select id="school-gender">
+                    <option value="boys">Boys</option>
+                    <option value="girls">Girls</option>
+                    <option value="mixed">Mixed</option>
+                    <option value="girls">Girls</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="school-level">School Level*</label>
+                  <select id="school-level">
+                    <option value="national">National</option>
+                    <option value="provisional">Provisional</option>
+                    <option value="county">County</option>
+                    <option value="district">District</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="school-size">Size:*</label>
+                  <select id="school-size">
+                    <option value="600">600</option>
+                    <option value="1000">1000</option>
+                    <option value="200">200</option>
+                    <option value="400">400</option>
+                  </select>
+                </div>
+
+                <div>
+                  <button id="search2" class="search2 btn2 btn-info">
+                    Search
+                  </button>
+                </div>
+
+                <div>
+                  <button id="clear" class="clear btn2 btn-warning btn">
+                    <i class="fa fa-fw fa-pencil"></i> Clear
+                  </button>
+                </div>
               </div>
             </div>
-            <div class="homes-apply d-flex flex-column align-items-end">
-              <div>
-                <button class="apply-button btn-primary">
-                  <i class="fa fa-fw fa-envelope"></i> Apply
-                </button>
+          </form>
+        </div>
+        <div class="container location-l">
+          <div class="homes-container d-flex flex-column align-items-center">
+            <div class="homes-border">
+              <div
+                class="d-flex flex-column align-items-start brook main-color"
+              >
+                <div id="brook">
+                  <i class="fa fa-fw fa-shield"></i>LIMURU GIRLS
+                </div>
               </div>
-              <div class="home-info d-sm-flex flex-row">
-                <div class="telephone">
-                  <i class="fa fa-fw fa-phone text-primary"></i> TELL:
+              <div class="description-homes">
+                <div class="border no-of-rooms">
+                  <div>TYPE:</div>
                 </div>
-                <div class="age">
-                  <i class="fa fa-fw fa-transport text-primary"></i>TRANSPORT:
-                  <span class="text-primary">YES</span>
+                <div class="border house-design">
+                  <div>LEVEL: <span class="text-primary">SECONDARY</span></div>
                 </div>
-                <div class="website">
-                  <i class="fa fa-fw fa-tv text-primary"></i> WEBSITE:
-                  <span class="text-primary">LIMGRLS.COM</span>
+                <div class="border no-of-rooms">
+                  <div>SYSTEM:</div>
                 </div>
-                <div class="population">
-                  <i class="fa fa-fw fa-users text-primary"></i> STUDENTS
-                  ENROLLED: <span class="text-primary">700</span>
+                <div class="border location6">
+                  <div>GENDER: <span class="text-primary">FEMALE</span></div>
                 </div>
-                <div class="support">
-                  <i class="fa fa-fw fa-money text-primary"></i>STUDENT SUPPORT:
-                  <span class="text-primary">YES</span>
+                <div class="border county">
+                  <div>COUNTY: <span class="text-primary">KIAMBU</span></div>
+                </div>
+                <div class="border email">
+                  <div>
+                    EMAIL: <span class="text-primary">limurugrls@st.com</span>
+                  </div>
+                </div>
+                <div class="border size">
+                  <div>
+                    RESIDENCE: <span class="text-primary">BOARDING</span>
+                  </div>
+                </div>
+                <div class="border price-range">
+                  <div>PERFOMANCE: <span class="text-primary">B+</span></div>
+                </div>
+              </div>
+              <div class="homes-apply d-flex flex-column align-items-end">
+                <div>
+                  <button class="apply-button btn-primary">
+                    <i class="fa fa-fw fa-envelope"></i> Apply
+                  </button>
+                </div>
+                <div class="home-info d-sm-flex flex-row">
+                  <div class="telephone">
+                    <i class="fa fa-fw fa-phone text-primary"></i> TELL:
+                  </div>
+                  <div class="age">
+                    <i class="fa fa-fw fa-transport text-primary"></i>TRANSPORT:
+                    <span class="text-primary">YES</span>
+                  </div>
+                  <div class="website">
+                    <i class="fa fa-fw fa-tv text-primary"></i> WEBSITE:
+                    <span class="text-primary">LIMGRLS.COM</span>
+                  </div>
+                  <div class="population">
+                    <i class="fa fa-fw fa-users text-primary"></i> STUDENTS
+                    ENROLLED: <span class="text-primary">700</span>
+                  </div>
+                  <div class="support">
+                    <i class="fa fa-fw fa-money text-primary"></i>STUDENT
+                    SUPPORT:
+                    <span class="text-primary">YES</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="home-more-info">
-            <p>
-              Among the misunderstandings when comes to CodeIgniter are related
-              to multiple file(image) uploading and
-            </p>
-            <p>
-              image manipulation. So I thought I'd give a try (with the help of
-              a reader's request). I can't stress out enough
-            </p>
-            <p>
-              this is not just a copy/paste people in the world please read
-              before taking
-            </p>
-            <a href="">CLICK TO VIEW MORE DETAILS</a>
-          </div>
-          <div class="map-directions">
-            <h3><i class="fa fa-fw fa-compass"></i> MAP DIECTIONS</h3>
-            <div class="google-embed">
-              <div class="mapouter">
-                <div class="pb-4 pt-4 gmap-canvas">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0556055757625!2d36.68478031412471!3d-1.1203379991827929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2779e1c9cf3d%3A0x75415b44105f9b5!2sLimuru%20Girls!5e0!3m2!1sen!2ske!4v1609763574978!5m2!1sen!2ske"
-                    height="450"
-                    width="600"
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0"
-                  ></iframe>
+            <div class="home-more-info">
+              <p>
+                Among the misunderstandings when comes to CodeIgniter are
+                related to multiple file(image) uploading and
+              </p>
+              <p>
+                image manipulation. So I thought I'd give a try (with the help
+                of a reader's request). I can't stress out enough
+              </p>
+              <p>
+                this is not just a copy/paste people in the world please read
+                before taking
+              </p>
+              <a href="">CLICK TO VIEW MORE DETAILS</a>
+            </div>
+            <div class="map-directions">
+              <h3 class="main-color">
+                <i class="fa fa-fw fa-compass"></i> MAP DIRECTIONS
+              </h3>
+              <div class="google-embed">
+                <div class="mapouter">
+                  <div class="pb-4 pt-4 gmap-canvas">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0556055757625!2d36.68478031412471!3d-1.1203379991827929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2779e1c9cf3d%3A0x75415b44105f9b5!2sLimuru%20Girls!5e0!3m2!1sen!2ske!4v1609763574978!5m2!1sen!2ske"
+                      height="450"
+                      width="600"
+                      allowfullscreen=""
+                      aria-hidden="false"
+                      tabindex="0"
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <form action="sign-up.html" class="sign-up-form">
-          <div class="sign-up-container d-flex flex-column">
-            <label for="name">First Name*</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="First Name"
-              name="name"
-              required
-            />
+        <div class="container">
+          <form action="sign-up.html" class="sign-up-form">
+            <div class="sign-up-container d-flex flex-column">
+              <label for="name">First Name*</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="First Name"
+                name="name"
+                required
+              />
 
-            <label for="second">Second Name</label>
-            <input
-              type="text"
-              id="second"
-              placeholder="Second Name"
-              name="name"
-              required
-            />
+              <label for="second">Second Name</label>
+              <input
+                type="text"
+                id="second"
+                placeholder="Second Name"
+                name="name"
+                required
+              />
 
-            <label for="email">Email</label>
-            <input
-              type="text"
-              id="email"
-              placeholder="Email"
-              name="email"
-              required
-            />
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Email"
+                name="email"
+                required
+              />
 
-            <label for="psw">Username*</label>
-            <input
-              type="text"
-              id="psw"
-              placeholder="Username"
-              name="name"
-              required
-            />
+              <label for="psw">Username*</label>
+              <input
+                type="text"
+                id="psw"
+                placeholder="Username"
+                name="name"
+                required
+              />
 
-            <label for="pswd">Username*</label>
-            <input
-              type="password"
-              id="pswd"
-              placeholder="Username"
-              name="name"
-              required
-            />
+              <label for="pswd">Username*</label>
+              <input
+                type="password"
+                id="pswd"
+                placeholder="Username"
+                name="name"
+                required
+              />
 
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter Password"
-              name="password"
-              required
-            />
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                name="password"
+                required
+              />
 
-            <label for="psw-repeat">Confirm Password</label>
-            <input
-              type="password"
-              id="psw-repeat"
-              placeholder="Confirm Password"
-              name="password-rpt"
-              required
-            />
+              <label for="psw-repeat">Confirm Password</label>
+              <input
+                type="password"
+                id="psw-repeat"
+                placeholder="Confirm Password"
+                name="password-rpt"
+                required
+              />
 
-            <div class="sign-up-button">
-              <button type="submit" class="signupbtn">Sign Up</button>
-              <button type="button" class="signinbtn">Sign in</button>
+              <div class="sign-up-button">
+                <button type="submit" class="signupbtn main-color1">
+                  Sign Up
+                </button>
+                <button type="button" class="signinbtn">Sign in</button>
+              </div>
             </div>
-          </div>
-        </form>
-      </div>
+          </form>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <section class="footer-fixed justify-content-center align-items-center">

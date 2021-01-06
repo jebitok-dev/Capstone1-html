@@ -168,7 +168,6 @@ h1 {
 }
 
 .btntop {
-  background-color: #f54f2b;
   font-size: 15px;
   border-radius: 0%;
   color: white;
@@ -218,6 +217,11 @@ h1.billboard {
   margin-left: 50px;
 }
 
+.margin-cent .form-section {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
 .card-body1 {
   margin-left: 5px;
   display: block;
@@ -252,16 +256,12 @@ header,
   margin-bottom: 10px;
 }
 
-.btn-search {
-  background-color: #f54f2b;
-  border-radius: 0%;
-  margin: 10px 0;
-  border: none;
-  font-size: 15px;
-}
-
 .full-width {
   width: 100%;
+}
+
+.top-margin {
+  margin-top: 100px;
 }
 
 .main-color {
@@ -375,6 +375,8 @@ label {
 
 .text-h2 {
   margin-right: auto;
+  text-transform: none;
+  margin-left: 100px;
 }
 
 #brook {
@@ -383,7 +385,6 @@ label {
 
 .map-directions h3 {
   font-size: 15px;
-  color: #f54f2b;
   padding-top: 20px;
 }
 
@@ -399,6 +400,10 @@ label {
 }
 
 .location-l {
+  margin-top: 100px;
+}
+
+.top-margin1 {
   margin-top: 200px;
 }
 
@@ -467,7 +472,6 @@ section {
 }
 
 .signupbtn {
-  background-color: #f54f2b;
   border: none;
   color: white;
 }
@@ -503,32 +507,6 @@ section {
   height: 100px;
   border-radius: 50%;
   float: inline-end;
-}
-
-.col-stl {
-  border: 2px solid #ccc;
-  background-color: #f54f2b;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
-  margin-top: 20px;
-}
-
-.col-stl::after {
-  content: none;
-  clear: both;
-  display: table;
-}
-
-.col-stl img {
-  /* float: inline-end; */
-  margin-right: 20px;
-  border-radius: 50%;
-  width: 90px;
-}
-
-.col-stl .col {
-  width: 50%;
 }
 
 hr {
