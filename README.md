@@ -4,7 +4,7 @@
 
 > The Capstone Project for completion of HTML & CSS Module.
 
-![screenshot](./assets/images/screenshot-patashule.png)
+![screenshot](./assets/images/homescr.png)
 
 <!-- Additional description about the project and its features. -->
 
