@@ -92,10 +92,6 @@
   align-items: center;
 }
 
-#carouselExampleIndicators {
-  margin-top: 50px;
-}
-
 .fixed-top {
   position: fixed;
   overflow: hidden;
@@ -106,12 +102,6 @@
   z-index: 1009;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .fieldset {
   align-self: center;
 }
@@ -119,13 +109,6 @@
 .img10 {
   width: 30%;
   height: 30%;
-}
-
-.carousel-item .in-obj {
-  top: 50% !important;
-  left: 50% !important;
-  position: absolute !important;
-  text-align: center !important;
 }
 
 h1 {
@@ -179,16 +162,6 @@ h1 {
 
 .phone-input button {
   width: 100%;
-}
-
-.carousel-caption button {
-  color: #fff !important;
-  padding: 10px 30px !important;
-  font-weight: bold;
-  outline: none;
-  border: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .search-input1 input,
@@ -285,16 +258,6 @@ h1 {
   h2 {
     font-size: 16px;
   }
-}
-
-.carousel-caption h1 {
-  color: #fff !important;
-  font-weight: normal;
-}
-
-.carousel-caption p {
-  color: #fff !important;
-  font-weight: bold;
 }
 
 .img15 {
@@ -646,6 +609,11 @@ hr {
     font-size: 18px;
   }
 
+  .homes-apply,
+  .home-more-info {
+    margin-right: 30px;
+  }
+
   .img10 {
     width: 60%;
   }
@@ -658,39 +626,12 @@ hr {
     float: inline-end;
   }
 
-  .carousel-caption h1 {
-    font-size: 12px;
-  }
-
-  .carousel-caption p {
-    font-size: 7px;
-  }
-
   form {
     position: relative;
   }
 
-  .carousel-caption button {
-    color: #fff !important;
-    padding: 5px 10px !important;
-    font-weight: bold;
-    outline: none;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
   .form-control {
     font-size: 12px;
-  }
-
-  .carousel-caption {
-    right: 15%;
-    bottom: 2px;
-    left: 15%;
-    z-index: 10;
-    color: #fff;
-    text-align: center;
   }
 
   .header,
@@ -704,10 +645,6 @@ hr {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* .img10 {
-    width: 60px;
-  } */
-
   .thirty {
     margin-left: 10px !important;
     margin-right: 10px !important;
@@ -727,21 +664,5 @@ hr {
   header,
   .space {
     padding: 0.5rem;
-  }
-}
-
-@media (max-width: 500px) {
-  /* .footer__ul-li {
-    padding: 0.1rem 0.3rem;
-  } */
-
-  .carousel-caption button {
-    color: #fff !important;
-    padding: 5px 5px !important;
-    font-weight: bold;
-    outline: none;
-    font-size: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 }
