@@ -8,7 +8,7 @@
 
 <!-- Additional description about the project and its features. -->
 
-- This project is the implementation of the PataShule directory of schools design using Bootstrap, HTML, CSS(box-model, flex-box, grid and ), github actions and netlify for hosting.
+- This project is the implementation of the PataShule directory of schools design using Bootstrap, HTML, CSS(box-model, flex-box, grid and ), github actions and netlify for deploy.
 
 ## Built With
 
@@ -20,6 +20,7 @@
 ## Live Demo
 
 [Live Demo Link](https://patashule-capstone.netlify.app/)
+[Video](https://www.loom.com/share/533ea8e263fb495f97a80899316bca9d)
 
 ## Getting Started
 
