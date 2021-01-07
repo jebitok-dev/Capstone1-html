@@ -3,398 +3,385 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>funaCourse, One Stop center for all your coding courses</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style1.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>PATASHULE - Capstone Project - Search</title>
   </head>
-  <body class="flex flex-column">
-    <!-- header -->
-    <section class="nav-section main-color1 container">
-      <div class="thirty">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="./index.html"
-            ><img
-              src="./assets/images/Rectangle2-2.svg"
-              alt="the logo"
-              class="img-fluid img-10"
-          /></a>
-          <a
-            href="./search-page.html"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Search"
-            ><i class="fa fa-fw fa-search"></i
-          ></a>
-          <a
-            href="./location.html"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="User"
-            ><i class="fa fa-fw fa-user"></i
-          ></a>
-          <a
+  <body class="search_bg">
+    <!-- NAVIGATION AREA -->
+    <header
+      class="main-header bg_default d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between p-3"
+    >
+      <div class="custom-width">
+        <a href="./index.html"
+          ><img
+            src="./assets/images/logo-removebg.png"
+            alt="Logo"
+            class="img-resize rounded-circle"
+        /></a>
+        <span class="d-inline-block"
+          ><a
             href="./index.html"
-            class="navbar-toggler navbar-toggler--search nav-icon"
-            aria-label="Blog"
-            ><i class="fa fa-fw fa-rss"></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./search-page.html"
-                  ><i class="fa fa-fw fa-search"></i>SCHOOLS
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html"
-                  ><i class="fa fa-fw fa-user"></i>ABOUT
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./location.html"
-                  ><i class="fa fa-fw fa-rss"></i>BLOG
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html"
-                  ><i class="fa fa-fw fa-bars"></i>MORE
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            class="custom-logo text-white text-decoration-none"
+            >PATASHULE</a
+          ></span
+        >
       </div>
-    </section>
-    <!-- main -->
-    <main class="top-margin">
-      <div class="container justify-content-center align-items-center one">
-        <section>
-          <div class="row main-secondary form-two">
-            <form class="search-results">
-              <div class="margin-cent">
-                <div class="form-section d-flex">
-                  <h1 class="bold text-muted text-h2 pt-2 pt-2">
-                    Filter by name, county, school level:
-                  </h1>
-                </div>
+      <nav>
+        <ul
+          class="d-flex align-items-center justify-content-between navigation-links list-unstyled m-0 font-weight-bold"
+        >
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./search-page.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="search"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">SCHOOLS</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./index.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="person-outline"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">ABOUT</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./location.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="logo-rss"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">BLOG</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./index.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="menu-sharp"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">MORE...</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-                <div
-                  class="d-flex pt-4 pb-4 justify-content-center align-items-center drop-down-section"
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+      <section class="container-fluid bg-light mt-5 py-3">
+        <h3 class="text-center text-secondary h4 py-3">
+          Filter by Name, County, and Level
+        </h3>
+        <form class="col-10 mx-auto">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <div>
+                <label for="inputCourseName" class="font-weight-bold"
+                  >SCHOOL NAME</label
                 >
-                  <div>
-                    <label for="find-school">Find a School:*</label>
-                    <input type="text" id="find-school" />
-                  </div>
+                <input type="text" class="form-control" id="inputCourseName" />
+              </div>
+            </div>
 
-                  <div>
-                    <label for="school-name">SCHOOL NAME:*</label>
-                    <select id="school-name">
-                      <option value="ngara">Ngara High</option>
-                      <option value="limuru">Limuru Girls</option>
-                      <option value="lanet">Lanet Boys</option>
-                      <option value="starehe">Starehe Boys</option>
-                    </select>
-                  </div>
+            <div class="form-group col-md">
+              <label for="inputCategory" class="font-weight-bold">COUNTY</label>
+              <select id="inputCategory" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>Kiambug</option>
+                <option>Machakos</option>
+                <option>Nakuru</option>
+                <option>Nairobi</option>
+              </select>
+            </div>
 
-                  <div>
-                    <label for="school-location">COUNTY:*</label>
-                    <select id="school-location">
-                      <option value="kiambu">Kiambu</option>
-                      <option value="machakos">Machakos</option>
-                      <option value="nakuru">Nakuru</option>
-                      <option value="nairobi">Nairobi</option>
-                    </select>
-                  </div>
+            <div class="form-group col-md">
+              <label for="inputLevel" class="font-weight-bold">LEVEL</label>
+              <select id="inputLevel" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>National</option>
+                <option>Provincial</option>
+                <option>County</option>
+              </select>
+            </div>
 
-                  <div>
-                    <label for="school-gender">Gender</label>
-                    <select id="school-gender">
-                      <option value="boys">Boys</option>
-                      <option value="girls">Girls</option>
-                      <option value="mixed">Mixed</option>
-                      <option value="girls">Girls</option>
-                    </select>
-                  </div>
+            <div class="form-group col-md pt-4 mt-2">
+              <button type="submit" class="btn btn-primary">Search</button>
+              <button type="submit" class="btn btn-warning">
+                clear filter
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
 
-                  <div>
-                    <label for="school-level">School Level*</label>
-                    <select id="school-level">
-                      <option value="national">National</option>
-                      <option value="provisional">Provisional</option>
-                      <option value="county">County</option>
-                      <option value="district">District</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label for="school-size">Size:*</label>
-                    <select id="school-size">
-                      <option value="600">600</option>
-                      <option value="1000">1000</option>
-                      <option value="200">200</option>
-                      <option value="400">400</option>
-                    </select>
-                  </div>
+      <section class="container py-5">
+        <h3 class="font-weight-bold text-danger py-2">
+          6 schools matching your criteria
+        </h3>
+        <div class="row border-top py-3">
+          <div class="col-12 col-md-4 my-3">
+            <div class="card search_bg">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lenana School</h5>
+                <p class="card-text">National School</p>
+                <a href="location.html" class="btn btn-warning">more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Maseno School.</h5>
+                <p class="card-text">Towards greater good</p>
+                <a href="location.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">School Name.</h5>
+                <p class="card-text">Design future proof systems.</p>
+                <a href="location.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                  <div>
-                    <button id="search2" class="search2 btn2 btn-info">
-                      Search
-                    </button>
-                  </div>
+        <div class="row">
+          <div class="col-12 col-md-4 my-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">School of thourgh</h5>
+                <p class="card-text">Dive deeper into advanced topics</p>
+                <a href="location.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">School name2</h5>
+                <p class="card-text">
+                  Discover the power of lambda expressions.
+                </p>
+                <a href="location.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/java_1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pioneer School.</h5>
+                <p class="card-text">Learn the industry design standards.</p>
+                <a href="location.html" class="btn btn-danger">more details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-                  <div>
-                    <button id="clear" class="clear btn2 btn-warning btn">
-                      <i class="fa fa-fw fa-pencil"></i> Clear
-                    </button>
+    <!-- MAIN FOOTER AREA     -->
+    <footer class="main-footer black_bg">
+      <div class="container-fluid">
+        <div class="row pt-3 pt-md-0 mx-auto d-none d-lg-block">
+          <div class="col d-flex flex-column flex-md-row mt-md-5 custom-font">
+            <div
+              class="border_on d-flex align-items-center justify-content-between custom_height neg_m-R footer_social-width"
+            >
+              <p class="mb-0 ml-3">
+                <a
+                  href="./index.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >HOME</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="./search-page.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >SEARCH</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="./location.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >ABOUT US</a
+                >
+              </p>
+              <p class="mb-0 pr-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >ADVERTISE</a
+                >
+              </p>
+            </div>
+            <div
+              class="border border-secondary align-self-center p-2 logo-footer rounded-circle black_bg footer-logo position-vectors custom_transform"
+            >
+              <a href="#"
+                ><img
+                  src="./assets/images/logo-removebg.png"
+                  alt="logo"
+                  class="footer-logo_img logo-footer rounded-circle"
+              /></a>
+            </div>
+            <div
+              class="border_on d-flex align-items-center justify-content-between custom_height neg_m-L footer_social-width"
+            >
+              <p class="mb-0 pl-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >FACEBOOK</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >TWITTER</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >BLOG</a
+                >
+              </p>
+              <p class="mb-0 mr-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >GOOGLE+</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3 text-white mx-3">
+          <div class="col-12 col-md mx-auto">
+            <h6 class="col-8 text-white text-center mx-auto">SUBSCRIBE</h6>
+            <form class="col-8 mx-auto my-2">
+              <div class="w-100">
+                <div class="input-group input-group-md w-100 mb-3">
+                  <input
+                    type="text"
+                    class="form-control main-input search-area_overflow"
+                    placeholder="email"
+                    aria-label="type place"
+                  />
+                  <div class="input-group-append">
+                    <a href="#" class="btn btn-secondary px-3">Send</a>
                   </div>
                 </div>
               </div>
             </form>
           </div>
-          <div class="justify-content-center align-items-center">
-            <h2 class="pt-4 pb-4">Search results found 7 schools.</h2>
-            <div class="results-grid">
-              <div class="row">
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:DEMOTHREE</h4>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:DEMOTWO</h4>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:FINAlSLIDER</h4>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:DEMOTHREE</h4>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:DEMOTWO</h4>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm col demo20">
-                  <a href="./location.html">
-                    <figure>
-                      <img
-                        src="./assets/images/grad.png"
-                        class="img-fluid"
-                        alt="school1"
-                      />
-                    </figure>
-                    <div class="description">
-                      <h4>NAME:FINALSLIDER</h4>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div class="col-12 col-md text-center my-2">
+            <h6>CONTACT</h6>
+            <p class="small">
+              You can reach out to us by mail <br /><a
+                href="#"
+                class="text-danger text-decoration-none"
+                >patashule20@mail.com</a
+              >
+            </p>
           </div>
-        </section>
-      </div>
-    </main>
-
-    <section class="footer-fixed justify-content-center align-items-center">
-      <div class="container">
-        <div class="footer">
-          <div class="footer_1">
-            <div
-              class="container d-flex flex-row justify-content-between footer__nav low-res"
-            >
-              <ul class="list-unstyled d-flex footer__ul">
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#">HOME</a>
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >SEARCH</a
-                  >
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >ABOUT US</a
-                  >
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >ADVERTISE</a
-                  >
-                </li>
-              </ul>
-              <ul class="list-unstyled d-flex flex-row footer__ul">
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >FACEBOOK</a
-                  >
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >TWITTER</a
-                  >
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#">BLOG</a>
-                </li>
-                <li class="footer__ul-li">
-                  <a class="text-decoration-none footer__ul-a" href="#"
-                    >GOOGLE+</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="footer__circle d-none d-lg-block">
-              <img
-                src="./assets/images/map2.svg"
-                alt="map2"
-                class="footer__circle-icon"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col space-bottom d-flex flex-column align-items-center">
-              <h4 class="">SUBSCRIBE</h4>
-              <form class="form-inline">
-                <div class="row">
-                  <div class="form-group subscribe">
-                    <input
-                      type="email"
-                      class="form-control rounded-0 bg-dark border-0"
-                      id="exampleInputEmail1"
-                      placeholder="johndoe@mail.com"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    class="btn rounded-0 border-0 btn-sub btn-secondary"
-                  >
-                    Send
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div class="col space-bottom d-flex flex-column align-items-center">
-              <h4 class="">CONTACT</h4>
-              <p class="">Lorem ipsum dolor sit amet consectetur.</p>
-              <p class="main-color">patashule20@mail.com</p>
-            </div>
-            <div class="col space-bottom d-flex flex-column align-items-center">
-              <h4 class="">ABOUT</h4>
-              <p class="">Lorem ipsum dolor sit amet,</p>
-              <p class="">Lorem ipsum dolor sit.</p>
-              <p class="main-color">Learn More...</p>
-            </div>
+          <div class="col-12 col-md text-center">
+            <h6>ABOUT</h6>
+            <p class="small">
+              PataShule your school search made easier,<br />
+              for all by all, <br />
+              we got everyone covered
+              <a href="#" class="text-decoration-none text-danger"
+                >find out more</a
+              >
+            </p>
           </div>
         </div>
-        <!-- footer -->
-        <footer class="footer2">
-          <ul class="footer1 list-inline pull-left">
-            <li class="d-inline">
-              <a href="#"><i class="fa fa-fw fa-facebook-official"></i></a>
-            </li>
-            <li class="d-inline">
-              <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
-            </li>
-            <li class="d-inline">
-              <a href="#"><i class="fa fa-fw fa-rss"></i></a>
-            </li>
-            <li class="d-inline">
-              <a href="#"><i class="fa fa-fw fa-google-plus"></i></a>
-            </li>
-            <li class="d-inline">
-              <a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
-            </li>
-          </ul>
-          <ul class="footer1 list-inline pull-right">
-            <li class="d-inline"><a href="#">© 2020 patashule.co.ke |</a></li>
-            <li class="d-inline"><a href="#">Contact |</a></li>
-            <li class="d-inline"><a href="#">Terms |</a></li>
-            <li class="d-inline"><a href="#">Privacy</a></li>
-          </ul>
-        </footer>
+        <div class="row bg-dark">
+          <div class="col d-flex justify-content-between bg-muted py-2">
+            <ul
+              class="d-flex justify-content-between align-items-center list-unstyled m-0"
+            >
+              <li class="mx-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+            </ul>
+            <p class="text-white small m-0">
+              Powered by <i><strong></strong></i>
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
   </body>
 </html>
