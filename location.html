@@ -78,89 +78,54 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="top-margin">
-        <div class="row main-secondary d-none d-lg-block form-two">
-          <form class="search-results">
-            <div class="margin-cent">
-              <div class="form-section d-flex">
-                <h1 class="bold text-muted text-h2 pt-2 pt-2">
-                  Filter by name, county, school level:
-                </h1>
-              </div>
-
-              <div
-                class="d-flex pt-4 pb-4 justify-content-center align-items-center drop-down-section"
-              >
-                <div>
-                  <label for="find-school">Find a School:*</label>
-                  <input type="text" id="find-school" />
-                </div>
-
-                <div>
-                  <label for="school-name">SCHOOL NAME:*</label>
-                  <select id="school-name">
-                    <option value="ngara">Ngara High</option>
-                    <option value="limuru">Limuru Girls</option>
-                    <option value="lanet">Lanet Boys</option>
-                    <option value="starehe">Starehe Boys</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label for="school-location">COUNTY:*</label>
-                  <select id="school-location">
-                    <option value="kiambu">Kiambu</option>
-                    <option value="machakos">Machakos</option>
-                    <option value="nakuru">Nakuru</option>
-                    <option value="nairobi">Nairobi</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label for="school-gender">Gender</label>
-                  <select id="school-gender">
-                    <option value="boys">Boys</option>
-                    <option value="girls">Girls</option>
-                    <option value="mixed">Mixed</option>
-                    <option value="girls">Girls</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label for="school-level">School Level*</label>
-                  <select id="school-level">
-                    <option value="national">National</option>
-                    <option value="provisional">Provisional</option>
-                    <option value="county">County</option>
-                    <option value="district">District</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="school-size">Size:*</label>
-                  <select id="school-size">
-                    <option value="600">600</option>
-                    <option value="1000">1000</option>
-                    <option value="200">200</option>
-                    <option value="400">400</option>
-                  </select>
-                </div>
-
-                <div>
-                  <button id="search2" class="search2 btn2 btn-info">
-                    Search
-                  </button>
-                </div>
-
-                <div>
-                  <button id="clear" class="clear btn2 btn-warning btn">
-                    <i class="fa fa-fw fa-pencil"></i> Clear
-                  </button>
-                </div>
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+      <section class="container-fluid bg-light mt-5 py-3">
+        <h3 class="text-center text-secondary h4 py-3">
+          Filter by Name, County, and Level
+        </h3>
+        <form class="col-10 mx-auto">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <div>
+                <label for="inputCourseName" class="font-weight-bold"
+                  >SCHOOL NAME</label
+                >
+                <input type="text" class="form-control" id="inputCourseName" />
               </div>
             </div>
-          </form>
-        </div>
+
+            <div class="form-group col-md">
+              <label for="inputCategory" class="font-weight-bold">COUNTY</label>
+              <select id="inputCategory" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>Kiambug</option>
+                <option>Machakos</option>
+                <option>Nakuru</option>
+                <option>Nairobi</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md">
+              <label for="inputLevel" class="font-weight-bold">LEVEL</label>
+              <select id="inputLevel" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>National</option>
+                <option>Provincial</option>
+                <option>County</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md pt-4 mt-2">
+              <button type="submit" class="btn btn-primary">Search</button>
+              <button type="submit" class="btn btn-warning">
+                clear filter
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section>
         <div class="container location-l">
           <div class="homes-container d-flex flex-column align-items-center">
             <div class="homes-border">
