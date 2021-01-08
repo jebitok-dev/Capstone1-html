@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>funaCourse, One Stop center for all your coding courses</title>
+  </head>
+  <body>
+    <!-- NAVIGATION AREA -->
+    <header
+      class="main-header fixed-top bg_default d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-between p-3"
+    >
+      <div class="custom-width">
+        <a href="./index.html"
+          ><img
+            src="./assets/images/logo-removebg.png"
+            alt="Logo"
+            class="img-resize rounded-circle"
+        /></a>
+        <span class="d-inline-block"
+          ><a
+            href="./index.html"
+            class="custom-logo text-white text-decoration-none"
+            >PATASHULE</a
+          ></span
+        >
+      </div>
+      <nav>
+        <ul
+          class="d-flex align-items-center justify-content-between navigation-links list-unstyled m-0 font-weight-bold"
+        >
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./search-page.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="search"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">SCHOOLS</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./index.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="person-outline"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">ABOUT</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./location.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="logo-rss"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">BLOG</span></a
+            >
+          </li>
+          <li class="navigation-link mx-3 pt-2">
+            <a href="./index.html" class="text-decoration-none text-white"
+              ><span><ion-icon name="menu-sharp"></ion-icon></span>
+              <span class="d-none d-lg-inline-block">MORE...</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+      <section class="container-fluid bg-light mt-5 py-3">
+        <h1 class="text-center lead-h4 text-secondary h4 py-3">
+          Filter by Name, County, and Level:
+        </h1>
+        <form class="col-10 mx-auto">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <div>
+                <label for="inputCourseName" class="font-weight-bold"
+                  >SCHOOL NAME</label
+                >
+                <input type="text" class="form-control" id="inputCourseName" />
+              </div>
+            </div>
+
+            <div class="form-group col-md">
+              <label for="inputCategory" class="font-weight-bold">COUNTY</label>
+              <select id="inputCategory" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>Kiambu</option>
+                <option>Machakos</option>
+                <option>Nakuru</option>
+                <option>Nairobi</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md">
+              <label for="inputLevel" class="font-weight-bold">LEVEL</label>
+              <select id="inputLevel" class="form-control">
+                <option selected>&nbsp;</option>
+                <option>National</option>
+                <option>Provincial</option>
+                <option>County</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md pt-4 mt-2">
+              <button type="submit" class="btn btn-primary">Search</button>
+              <button type="submit" class="btn btn-warning">
+                clear filter
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section>
+        <div class="container location-l">
+          <div class="homes-container d-flex flex-column align-items-center">
+            <div class="homes-border p-3">
+              <div
+                class="d-flex flex-column align-items-start brook main-color"
+              >
+                <div id="brook">
+                  <i class="fa fa-fw fa-shield"></i>LIMURU GIRLS
+                </div>
+              </div>
+              <div class="description-homes">
+                <div class="border no-of-rooms">
+                  <div>TYPE:</div>
+                </div>
+                <div class="border house-design">
+                  <div>LEVEL: <span class="text-primary">SECONDARY</span></div>
+                </div>
+                <div class="border no-of-rooms">
+                  <div>SYSTEM:</div>
+                </div>
+                <div class="border location6">
+                  <div>GENDER: <span class="text-primary">FEMALE</span></div>
+                </div>
+                <div class="border county">
+                  <div>COUNTY: <span class="text-primary">KIAMBU</span></div>
+                </div>
+                <div class="border email">
+                  <div>
+                    EMAIL: <span class="text-primary">limurugrls@st.com</span>
+                  </div>
+                </div>
+                <div class="border size">
+                  <div>
+                    RESIDENCE: <span class="text-primary">BOARDING</span>
+                  </div>
+                </div>
+                <div class="border price-range">
+                  <div>PERFOMANCE: <span class="text-primary">B+</span></div>
+                </div>
+              </div>
+              <div class="homes-apply d-flex flex-column align-items-end">
+                <div>
+                  <button class="apply-button btn-primary">
+                    <i class="fa fa-fw fa-envelope"></i> Apply
+                  </button>
+                </div>
+                <div class="home-info d-sm-flex flex-row">
+                  <div class="telephone">
+                    <i class="fa fa-fw fa-phone text-primary"></i> TELL:
+                  </div>
+                  <div class="age">
+                    <i class="fa fa-fw fa-transport text-primary"></i>TRANSPORT:
+                    <span class="text-primary">YES</span>
+                  </div>
+                  <div class="website">
+                    <i class="fa fa-fw fa-tv text-primary"></i> WEBSITE:
+                    <span class="text-primary">LIMGRLS.COM</span>
+                  </div>
+                  <div class="population">
+                    <i class="fa fa-fw fa-users text-primary"></i> STUDENTS
+                    ENROLLED: <span class="text-primary">700</span>
+                  </div>
+                  <div class="support">
+                    <i class="fa fa-fw fa-money text-primary"></i>STUDENT
+                    SUPPORT:
+                    <span class="text-primary">YES</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-more-info">
+              <p>
+                Among the misunderstandings when comes to CodeIgniter are
+                related to multiple file(image) uploading and
+              </p>
+              <p class="d-none d-xs-none d-sm-none d-md-block">
+                image manipulation. So I thought I'd give a try (with the help
+                of a reader's request). I can't stress out enough
+              </p>
+              <p class="d-none d-xs-none d-sm-none d-md-block">
+                this is not just a copy/paste people in the world please read
+                before taking
+              </p>
+              <a href="">CLICK TO VIEW MORE DETAILS</a>
+            </div>
+            <div class="map-directions">
+              <h3 class="main-color">
+                <i class="fa fa-fw fa-compass"></i> MAP DIRECTIONS
+              </h3>
+              <div class="google-embed">
+                <div class="mapouter">
+                  <div class="pb-4 pt-4 gmap-canvas">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0556055757625!2d36.68478031412471!3d-1.1203379991827929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2779e1c9cf3d%3A0x75415b44105f9b5!2sLimuru%20Girls!5e0!3m2!1sen!2ske!4v1609763574978!5m2!1sen!2ske"
+                      height="450"
+                      width="600"
+                      allowfullscreen=""
+                      aria-hidden="false"
+                      tabindex="0"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <form action="sign-up.html" class="sign-up-form">
+            <div class="sign-up-container d-flex flex-column">
+              <label for="name">First Name*</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="First Name"
+                name="name"
+                required
+              />
+
+              <label for="second">Second Name</label>
+              <input
+                type="text"
+                id="second"
+                placeholder="Second Name"
+                name="name"
+                required
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Email"
+                name="email"
+                required
+              />
+
+              <label for="psw">Username*</label>
+              <input
+                type="text"
+                id="psw"
+                placeholder="Username"
+                name="name"
+                required
+              />
+
+              <label for="pswd">Username*</label>
+              <input
+                type="password"
+                id="pswd"
+                placeholder="Username"
+                name="name"
+                required
+              />
+
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                name="password"
+                required
+              />
+
+              <label for="psw-repeat">Confirm Password</label>
+              <input
+                type="password"
+                id="psw-repeat"
+                placeholder="Confirm Password"
+                name="password-rpt"
+                required
+              />
+
+              <div class="sign-up-button">
+                <button type="submit" class="signupbtn main-color1">
+                  Sign Up
+                </button>
+                <button type="button" class="signinbtn">Sign in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN FOOTER AREA     -->
+    <footer class="main-footer black_bg">
+      <div class="container-fluid">
+        <div class="row pt-3 pt-md-0 mx-auto d-none d-lg-block">
+          <div class="col d-flex flex-column flex-md-row mt-md-5 custom-font">
+            <div
+              class="border_on d-flex align-items-center justify-content-between custom_height neg_m-R footer_social-width"
+            >
+              <p class="mb-0 ml-3">
+                <a
+                  href="./index.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >HOME</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="./search-page.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >SEARCH</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="./location.html"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >ABOUT US</a
+                >
+              </p>
+              <p class="mb-0 pr-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >ADVERTISE</a
+                >
+              </p>
+            </div>
+            <div
+              class="border border-secondary align-self-center p-2 logo-footer rounded-circle black_bg footer-logo position-vectors custom_transform"
+            >
+              <a href="#"
+                ><img
+                  src="./assets/images/logo-removebg.png"
+                  alt="logo"
+                  class="footer-logo_img logo-footer rounded-circle"
+              /></a>
+            </div>
+            <div
+              class="border_on d-flex align-items-center justify-content-between custom_height neg_m-L footer_social-width"
+            >
+              <p class="mb-0 pl-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >FACEBOOK</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >TWITTER</a
+                >
+              </p>
+              <p class="mb-0">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >BLOG</a
+                >
+              </p>
+              <p class="mb-0 mr-3">
+                <a
+                  href="#"
+                  class="font-weight-bold text-white text-decoration-none"
+                  >GOOGLE+</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row py-3 text-white mx-3">
+          <div class="col-12 col-md mx-auto">
+            <h6 class="col-8 text-white text-center mx-auto">SUBSCRIBE</h6>
+            <form class="col-8 mx-auto my-2">
+              <div class="w-100">
+                <div class="input-group input-group-md w-100 mb-3">
+                  <input
+                    type="text"
+                    class="form-control main-input search-area_overflow"
+                    placeholder="email"
+                    aria-label="type place"
+                  />
+                  <div class="input-group-append">
+                    <a href="#" class="btn btn-secondary px-3">Send</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md text-center my-2">
+            <h6>CONTACT</h6>
+            <p class="small">
+              You can reach out to us by mail <br /><a
+                href="#"
+                class="text-danger text-decoration-none"
+                >patashule20@mail.com</a
+              >
+            </p>
+          </div>
+          <div class="col-12 col-md text-center">
+            <h6>ABOUT</h6>
+            <p class="small">
+              PataShule your school search made easier,<br />
+              for all by all, <br />
+              we got everyone covered
+              <a href="#" class="text-decoration-none text-danger"
+                >find out more</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row bg-dark">
+          <div class="col d-flex justify-content-between bg-muted py-2">
+            <ul
+              class="d-flex justify-content-between align-items-center list-unstyled m-0"
+            >
+              <li class="mx-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li class="mx-2">
+                <a href="" class="text-decoration-none text-muted"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+            </ul>
+            <p class="text-white small m-0">
+              Powered by <i><strong></strong></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  </body>
+</html>
